@@ -26,7 +26,7 @@ simdi=datetime.now().date()
 vize_tarih=kontrol().date()
 
 if vize_tarih < simdi:
-    print("Vize Tarihi Geçti.")
+    print("Vize Geçti.")
 elif vize_tarih == simdi:
     print("Vize Bugün.")
 else:
